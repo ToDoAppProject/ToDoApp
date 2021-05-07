@@ -1,5 +1,7 @@
 package com.example.todoapp.Model;
 
+import java.util.Date;
+
 public class ToDoModel {
     private int id, status;
     private String task;
@@ -27,4 +29,6 @@ public class ToDoModel {
     public void setTask(String task) {
         this.task = task;
     }
+
+
 }
